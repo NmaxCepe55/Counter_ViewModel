@@ -48,6 +48,15 @@ fun CounterScreen(viewModel: CounterViewModel) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
+        Text(
+            text = "Andhika Gusti Al-Fahrezi"
+        )
+
+        Text(
+            text = "NIM: 245150400111061"
+        )
+
+        Spacer(modifier = Modifier.height(40.dp))
 
         Text(
             text = counter.toString()
